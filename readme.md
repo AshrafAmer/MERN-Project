@@ -177,3 +177,16 @@ Authentication will be done in 3 steps:
     <br>
     `request.session.destroy`
     ![Image of Config routers](public/images/docs/logout.JPG)
+    
+    
+    
+    
+
+## Author
+
+ Ashraf Amer
+
+## License
+
+Copyright(c) 2020 ITI OpenSource Track
+
