@@ -1,0 +1,27 @@
+{
+    "name": "mern_project",
+    "version": "1.0.0",
+    "description": "Simple MERN System to manage ITI students, their departments and instructors.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Ashraf Amer",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.4.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "express": "^4.17.1",
+        "express-react-views": "^0.11.0",
+        "express-session": "^1.17.0",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.4.1",
+        "mongoose": "^5.9.6",
+        "morgan": "^1.10.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
