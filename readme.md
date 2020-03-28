@@ -170,7 +170,7 @@ Authentication will be done in 3 steps:
 1.  Create an AuthController to set roles on session object as new property and modify it as you want. do that inside login function
     ![Image of Config routers](public/images/docs/login.JPG)
 
-2.  use role property to build an auth middleware, if user has a role property in his session that's mean he logined to our system, so he can complite and access to our system functionality. but if he don't roles, our middleware will redirect him to login page.
+2.  use role property to build an auth middleware, if user has a role property in his session that's mean he logined to our system, so he can complite and access to our system functionality. but if he don't has any roles, our middleware will redirect him to login page.
     ![Image of Config routers](public/images/docs/loginMiddleware.JPG)
 
 3.  finally, you can control user accessibility depending on session role property. but how user can logout? just destroy session.
