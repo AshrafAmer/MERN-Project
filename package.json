@@ -10,11 +10,11 @@
     "author": "Ashraf Amer",
     "license": "ISC",
     "dependencies": {
-        "body-parser": "^1.19.0",
+        "body-parser": "^1.20.1",
         "bootstrap": "^4.4.1",
         "cors": "^2.8.5",
         "crypto": "^1.0.1",
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "express-react-views": "^0.11.0",
         "express-session": "^1.17.0",
         "font-awesome": "^4.7.0",
